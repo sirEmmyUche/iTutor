@@ -3,9 +3,9 @@ import './App.css';
 function Nav () {
     return (
         <div>
-            <nav className='nav'>
-            <div>iTutor</div>
-            <ul>
+            <nav>
+            <div className='logo'>iTutor</div>
+            <ul className='nav-ul'>
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Courses</li>

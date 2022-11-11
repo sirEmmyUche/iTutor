@@ -1,21 +1,21 @@
-// import Nav from './components/nav.js';
+import Nav from './components/nav.js';
 // import WhyChooseUs from './components/whychooseus.js';
 // import Programmes from './components/programmes.js';
-import Testimonials from "./components/testimonials";
+// import Testimonials from "./components/testimonials";
+// import Pricing from "./components/pricing";
+// import Footer from "./components/footer";
 
 function App() {
   return (
     <div>
-       {/* <Nav/> */}
+       <Nav/>
        {/* <WhyChooseUs/> */}
        {/* <Programmes/> */}
-       <Testimonials/>
+       {/* <Testimonials/> */}
+       {/* <Pricing/> */}
+       {/* <Footer/> */}
     </div>
   );
 }
 
 export default App;
-
-//testimonials
-//pricing
-//footer

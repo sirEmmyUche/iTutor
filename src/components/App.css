@@ -1,8 +1,37 @@
 *{
     box-sizing: border-box;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
-.nav{
+/* stylling the nav component */
+
+nav{
+    height: 5%;
+    background: #FFFFFF;
+    border: 1px solid blue;
     display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    font-weight: 700;
+    color:#0073FF;
+    font-size: larger;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.nav-ul li{
+    list-style: none;
+    padding: 0 1em;
+    font-weight: 400;
+    color:#5C5C5C;
+}
+
+
+.nav-ul li:hover{
+    border-bottom: 3px solid #0073FF;
 }
