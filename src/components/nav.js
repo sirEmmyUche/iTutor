@@ -11,28 +11,30 @@ function Nav () {
                 <li>Courses</li>
                 <li>Blog</li>
                 <li>Contact Us</li>
-                <li><button>Get Started</button></li>
+                <li className='nav-get-started-btn'><button>Get Started</button></li>
             </ul>
             </nav>
         <header>
-            <div>
-                <div>
+            <div className='get-personal-tutor'>
+                <h1>
                     Get Personalized Tutors <br/> 
                     at your Convenience
-                </div>
-                <div>
+                </h1>
+                <p>
                     Seasoned subject and skill tutors<br/> 
                     available to help you achieve your goals
-                </div>
+                </p>
                 <button> Get Started</button>
             </div>
             
-            <div><img src='images/iTutors.png' alt='an avi'/></div>
-            <div>
+            <div className='header-img'><img src='images/iTutors.png' alt='an avi'/></div>
+            <div className='designed-to-meet-needs'>
                 <h5>Designed to meet the needs of</h5>
-                <li>students</li>
-                <li>parents</li>
+                <ul>
+                <li>Students</li>
+                <li>Parents</li>
                 <li>Professionals</li>
+                </ul>
             </div>
         </header> 
     </div> 
