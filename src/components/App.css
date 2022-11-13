@@ -103,9 +103,9 @@ header{
 
 .designed-to-meet-needs{
     position: absolute;
-    border: 1px solid black;
+    border: 3px solid #FFFFFF;
     border-radius: 25px;
-    box-shadow: 0 0 10px #FFFFFF;
+    box-shadow: 0 0 10px #808080;
     padding: 1em;
     background: #FFFFFF;
     bottom: 20%;
@@ -131,3 +131,90 @@ header{
     font-size: 20px;
 }
 
+.designed-to-meet-needs>ul li::marker{
+    color: #F9B725;
+}
+
+/* stylling the whychooseUs components */
+
+section{
+    background: #FFFFFF;
+}
+
+.why-choose-us{
+    border: 1px solid #FFFFFF;
+    padding: 0 10rem;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-choose-us>div>img{
+    border: 1px solid #FFFFFF;
+    width: 75%;
+    height: 75%;
+}
+
+.why-choose-us-description{
+    border: 1px solid #FFFFFF;
+    width: 25%;
+    height: 75%;
+}
+
+.why-choose-us-description>h6{
+    margin: 1em 0;
+    font-weight: 900;
+    line-height: 20px;
+    font-size: 20px;
+    color: #0073FF;
+}
+
+.why-choose-us-description>p{
+    font-weight: 400;
+    color: #5C5C5C;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.why-choose-us-description>button{
+    color: #FFFFFF;
+    background: #0073FF;
+    width: 100px;
+    height: 35px;
+    font-weight: 400;
+    margin-top: 2em;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+section>h3{
+    text-align: center;
+    color: #0073FF;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.why-chooseUs-vector{
+    border: 1px solid black;
+    width: 70%;
+    margin: 3rem 7rem;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.why-chooseUs-vector div{
+    border: 1px solid #EBF4FF;
+    border-radius: 40px;
+    width: 75%;
+    height: 200px;
+    background: #EBF4FF;
+    padding: 50px;
+}
+
+.why-chooseUs-vector div>h4{
+    text-align: center;
+    font-size: 75%;
+}

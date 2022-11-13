@@ -1,5 +1,5 @@
 import Nav from './components/nav.js';
-// import WhyChooseUs from './components/whychooseus.js';
+import WhyChooseUs from './components/whychooseus.js';
 // import Programmes from './components/programmes.js';
 // import Testimonials from "./components/testimonials";
 // import Pricing from "./components/pricing";
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
        <Nav/>
-       {/* <WhyChooseUs/> */}
+       <WhyChooseUs/>
        {/* <Programmes/> */}
        {/* <Testimonials/> */}
        {/* <Pricing/> */}

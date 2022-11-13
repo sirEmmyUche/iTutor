@@ -4,9 +4,9 @@ import './App.css';
 function WhyChooseUs () {
 return (
     <section>
-        <div>
+        <div className='why-choose-us'>
             <div><img src='images/iTutors2.png' alt='a boy with a laptop'/></div>
-            <div>
+            <div className='why-choose-us-description'>
                 <h6>
                 Learn a Skill. <br/>
                 Learn a Subject.<br/>
@@ -20,7 +20,7 @@ return (
             </div>
         </div>
         <h3>Why Choose Us?</h3>
-        <div>
+        <div className='why-chooseUs-vector'>
             <div>
                 <img src='images/vector1.svg' alt='logo'/>
                 <h4>Personalized Curriculum</h4>
