@@ -2,18 +2,19 @@ import './App.css';
 
 function Programmes () {
     return (
-        <section>
+        <section className='programmes-component'>
             <h2>Our Programmes</h2>
-            <div>
-                <div>
+            <div className='programmes-component-card'>
+                <div className='programmes-card'>
                     <h4>Certification Trainings</h4>
                     <p>Project Management Professional Scrum Master</p>
+                    <div className='golden-mark'></div>
                 </div>
-                <div>
+                <div className='programmes-card'>
                     <h4>Career Trainings </h4>
                     <p>User Research & Design Digital Marketing Data Analysis GIS & Geospatial Analytics </p>
                 </div>
-                <div>
+                <div className='programmes-card'>
                     <h4>Subject Trainings</h4>
                     <p>GCSE Subjects A Level Subjects JAMB & WAEC</p>
                 </div>

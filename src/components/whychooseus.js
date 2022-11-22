@@ -21,27 +21,27 @@ return (
         </div>
         <h3>Why Choose Us?</h3>
         <div className='why-chooseUs-vector'>
-            <div>
+            <div className='box'>
                 <img src='images/vector1.svg' alt='logo'/>
                 <h4>Personalized Curriculum</h4>
             </div>
-            <div>
+            <div className='box'>
                 <img src='images/vector2.svg' alt='logo'/>
-                <h4>One-On-One/Group Learning Options Available</h4>
+                 <h4>One-On-One/Group Learning Options Available</h4>
             </div>
-            <div>
+            <div className='box'>
                 <img src='images/vector3.svg' alt='logo'/>
                 <h4>Learn from Experts</h4>
             </div>
-            <div>
+            <div className='box'>
                 <img src='images/vector4.svg' alt='logo'/>
                 <h4>Access Case Studies and Projects</h4>
             </div>
-            <div>
+            <div className='box'>
                 <img src='images/vector5.svg' alt='logo'/>
                 <h4>24 Hour Assignment/Exam Prep Support</h4>
             </div>
-            <div>
+            <div className='box'>
                 <img src='images/vector6.svg' alt='logo'/>
                 <h4>Dynamic Learning Communities</h4>
             </div>
