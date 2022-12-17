@@ -4,13 +4,13 @@ import './App.css';
 function Footer () {
     return (
         <footer>
-            <div>
+            <div className='footer-div'>
                 <p>iTutors is an online education platform that delivers live virtual classes
                      for students in subject areas and
                      different skill sets such as digital marketing,
                       GIS & geospatial analytics, 
                     user research & design, and data analytics.</p>
-                    <p>All Right Reserved | iTutors 2022</p>
+                    <p className='copywrite'>All Right Reserved | iTutors 2022</p>
             </div>
             <div>
                 <h6>Quicklinks</h6>

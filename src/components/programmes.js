@@ -13,10 +13,12 @@ function Programmes () {
                 <div className='programmes-card'>
                     <h4>Career Trainings </h4>
                     <p>User Research & Design Digital Marketing Data Analysis GIS & Geospatial Analytics </p>
+                    <div className='golden-mark'></div>
                 </div>
                 <div className='programmes-card'>
                     <h4>Subject Trainings</h4>
                     <p>GCSE Subjects A Level Subjects JAMB & WAEC</p>
+                    <div className='golden-mark'></div>
                 </div>
             </div>
         </section>

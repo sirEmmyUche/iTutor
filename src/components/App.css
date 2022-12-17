@@ -248,7 +248,7 @@ section>h3{
     width: 70%;
     margin: 3rem 7rem;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
     display: flex;
     flex-direction: column;
 }
@@ -267,6 +267,7 @@ section>h3{
 }
 
 .programmes-card{
+    position: relative;
     border: 1px solid #FFFFFF;
     border-radius: 25px;
     box-shadow: 0 0 10px #808080;
@@ -296,15 +297,183 @@ section>h3{
 }
 
 .golden-mark{
-    position: relative;
-    border: 1px solid black;
-    border-radius: 50px 50px 0 0  ;
+    position: absolute;
+    border: 1px solid #F9B725;
+    border-radius: 10rem 10rem 0 0  ;
     background: #F9B725;
-    width:50%;
-    height: 25%;
+    width: 5rem;
+    height: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 
+/* stylling the testimonia componnents */
+
+.testimonial-component{
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-component>h3{
+    text-align: center;
+    font-size: 100%;
+    color: #0073FF;
+    font-weight: 700;
+    margin: 5% 0;
+}
+
+.testimonial-card-component{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card{
+    position: relative;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #808080;
+    background-color: #FFFFFF;
+    margin: 2rem 0;
+    width: 20%;
+    max-height: 25%;
+    padding: 3%;
+}
+
+.testimonial-card p{
+    font-size: 50%;
+    font-weight: 400;
+    color: #5C5C5C;
+}
 
 
+/* stylling the pricing components */
 
+.pricing-component{
+    border: 1px solid #FFFFFF;
+    margin: 3rem 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-pricing-plans{
+    width: 25%;
+    border: 1px solid #FFFFFF;
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.our-pricing-plans>h3{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #0073FF;
+}
+
+.our-pricing-plans>p{
+    margin: 1rem 0; 
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5C5C5C;
+}
+
+.our-pricing-plans>button{
+    color: #FFFFFF;
+    background: #0073FF;
+    width: 100px;
+    height: 35px;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.pricing-amount{
+    position: relative;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 0 10px grey;
+    padding: 2rem;
+    width: 25%;
+    background-color: #FFFFFF;
+}
+
+.pricing-amount>h5{
+    font-weight: 400;
+    color: #5C5C5C;
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+}
+
+
+.pricing-amount>div{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #0073FF;
+    text-align: center;
+}
+
+.date{
+    font-size: 20px;
+    color: #5C5C5C;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.pricing-amount>p{
+    margin: 1em 0;
+    font-weight:400;
+    color: #5C5C5C;
+    text-align: center;
+}
+
+.pricing-amount>ul>li{
+    padding: 8px 0;
+    font-weight: 400;
+    color: #5C5C5C;
+}
+
+.pricing-amount>ul>li::marker{
+    color: #0073FF;
+}
+/* 
+.pricing-golden-mark{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50% 0% 0% 50%;
+    background-color: #F9B725;
+    height: 50px;
+    width: 100%;
+} */
+
+
+/* stylling the footer */
+
+footer{
+    width: 100%;
+    padding: 2rem;
+    background-color: #0073FF;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div{
+    width: 25%;
+}
+
+footer h6{
+    margin-bottom: 2em;
+    font-weight: 700;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.copywrite{
+    margin-top: 2em;
+}
